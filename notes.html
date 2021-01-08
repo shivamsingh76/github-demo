@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&display=swap" rel="stylesheet">
+
+	<title>Notes</title>
+</head>
+<body>
+<header>
+  <div class="container text-center">
+	<a class='back-btn' href="./index.html" ><span class="glyphicon glyphicon-circle-arrow-left"></span></a>
+	<h1 class=''>MY NOTES</h1>
+  </div>
+</header>
+
+
+<div class="container form-container">
+<form id = 'notes-form'>
+	<div class="form-group">
+    <input type="text" class="form-control " id="" placeholder="title">
+  </div>
+
+  <div class="form-group">
+    <textarea class="form-control" id="" rows="5" placeholder="note"></textarea>
+  </div>
+
+
+  
+
+  <button type="submit" class="btn btn-primary">Create</button>
+</form>
+</div>
+
+
+
+
+<div  class="container note-list">
+	<div id='notes-list' class="row">
+		
+	</div>
+</div>
+
+
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/createNote.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/todoListStyles.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&display=swap" rel="stylesheet">
+
+	<title>to-do List</title>
+</head>
+<body>
+<header>
+  
+  <div class="container text-center">
+	<a class='back-btn' href="./index.html" ><span class="glyphicon glyphicon-circle-arrow-left"></span></a>
+	<h1 class=''>MY TASKS</h1>
+  </div>
+
+</header>
+
+<div class="container text-center">
+<form>
+	<input type="text" class="form-control " id="task-input" placeholder="New Task">
+
+	<button type='submit' class="create-task-btn ">
+		<span class="glyphicon glyphicon-plus-sign "></span>&nbsp;&nbsp;&nbsp;Add New Task
+	</button>
+</form>
+</div>
+
+<div class='container task-list-container'>
+	<ul id='task-list'>
+		
+	</ul>
+</div>
+
+
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/createTask.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

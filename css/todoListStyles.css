@@ -1,0 +1,60 @@
+/*--------to-do lists page-----------*/
+
+
+
+.create-task-btn{
+	border : 1px solid #4CAF50;
+	padding: 10px;
+	border-radius: 20px;
+	transition-duration: 0.4s;
+	background-color: #27ae60; /* Green */
+  	color: white;
+  	float: left;
+  	margin-left: 10px;
+}
+
+.create-task-btn:hover {
+  background-color: #4CAF50 ;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+form{
+	margin-top: 30px;
+}
+
+#task-input{
+	border-radius: 20px;
+	float: left;
+	width: 70%;
+	padding: 20px;
+	margin-left: 50px;
+}
+
+.task-list-container{
+	margin-top: 30px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+ul li{
+	background-color: white;
+	margin: 10px;
+	padding: 5px 10px;
+	font-size: 1.2em;
+	border-radius: 10px;
+	opacity: .9;
+}
+
+li:hover{
+	text-decoration: line-through;
+	background-color: #bdc3c7 ;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+.done{
+	 text-decoration: line-through;
+	 background-color: #bdc3c7 ;
+}

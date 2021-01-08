@@ -1,0 +1,127 @@
+body{
+	font-family: 'Nunito', sans-serif;
+	font-weight: 600;
+	background-image: url('../images/home_image.jpg')  ;
+	background-size: cover; 
+
+}
+
+#menu{
+	border : 1px solid #7f8c8d;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: white;
+	opacity: .7;
+}
+
+.js-clock span{
+	font-size: 7em;
+	
+}
+
+#menu a{
+	display: block;
+	font-size: 2em;
+}
+
+#menu a:hover{
+	text-decoration:  none;
+	font-weight: bold;
+}
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -180px;
+  margin-left: -175px;
+}
+
+hr{
+	margin: 10px;
+	border-color: #7f8c8d;
+}
+
+/*-------Notes Page---------*/
+.back-btn{
+	float: left;
+	font-size: 3em;
+	margin-top: 30px;
+}
+
+header h1{
+	font-size: 5em;
+	font-weight: bolder;
+
+}
+
+header{
+	background-color: white;
+	opacity: .8;
+}
+
+.create-note{
+	border : 1px solid #4CAF50;
+	padding: 10px;
+	border-radius: 20px;
+	margin-top: 30px;
+	transition-duration: 0.4s;
+	background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.create-note:hover {
+  
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.note-list{
+	margin-top: 30px;
+}
+
+.note-element{
+	border: 1px solid grey;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #ecf0f1;
+	opacity: .8;
+}
+
+.note-title{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.note-col{
+	padding: 10px;
+}
+
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    padding: 10px;
+}
+
+.glyphicon-remove-circle{
+	float: right;
+}
+
+.glyphicon-remove-circle:hover{
+	cursor: pointer;
+}
+
+.note-body{
+	height: 300px;
+	overflow: auto;
+}
+
+/* Form */
+.form-container{
+	margin-top: 30px;
+
+
+}
+
+.form-group{
+	background-color: #3498db;
+	opacity: .8;
+}
